@@ -292,6 +292,7 @@
           this.getUserList()
         })
       },
+
       // 展示编辑用户的对话框
       async showEditDialog(id) {
         // console.log(id);
@@ -304,8 +305,6 @@
         }
 
         this.editForm = res.data
-
-
         this.editDialogVisible = true
       },
       editDialogClose() {
